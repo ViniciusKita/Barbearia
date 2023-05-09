@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital@1&display=swap');
+
+
+* {
+    margin: 0;
+}
+
+.navbar {
+    font-family: 'Montserrat Alternates', sans-serif;
+    background-color: #000000;
+    justify-content: space-between;
+}
+
+#titulo {
+    position: relative;
+    right: 20%;
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: rgb(255, 255, 255);
+    padding: 15px;
+}
+
+.nav {
+    display: flex;
+    justify-content: flex-end;
+
+    color: rgb(255, 255, 255);
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.container {
+    display: flex;
+}
+
+.button {
+    font-family: 'Montserrat Alternates', sans-serif;
+    background-color: #000000;
+    height: 100px;
+    width: 250px;
+    font-size: 20px;
+    padding: 20px;
+    border-style: none;
+    margin-left: 0px;
+}
+
+.nav {
+
+    align-items: center;
+}
+
+
+
+.button:hover {
+    background-color: #68686867;
+    transform: scale(1.0);
+}
+
+.button a:hover{
+    font-size: 25px;
+    color: aqua;
+}
+
+.box{
+
+        height: 300px;
+}
+
+.ContainerInfo {
+    font-family: 'Montserrat Alternates', sans-serif;
+    margin: 0px;
+    padding: 270px;
+    background-image: url("/image/bonito.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    height: 300px;
+}
+
+
+
+.ContainerInfo h1{
+    margin-bottom:20px;
+    font-size: 150px;
+    padding: 8px;
+    letter-spacing: 10px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    text-shadow: 7px 7px #000000;
+}
+
+.ContainerInfo h3{
+    margin-bottom: 20px;
+    font-size: 75px;
+    border-right:4px solid;
+    padding: 8px;
+    background-color:#272626a2;
+    color: rgb(255, 255, 255);
+}
+
+
+.TextInfo{
+    display: flex;
+    justify-content: center;
+    padding:150px;
+    height: 300px;
+
+}
+
+.TextBox{
+    position: absolute;
+     
+    border-radius:4px;
+    font-size:16px;
+    padding:15px;
+    margin:5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.ContainerPrecos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 200px;
+    height: 300px;
+    background-color:#000000;
+}
+
+.BoxCards{
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    width: 200px;
+    background-color: #ffffff;
+}
